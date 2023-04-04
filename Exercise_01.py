@@ -117,7 +117,7 @@ def random_number():
 def random_listNumber():
     list = []
     for i in range(0,10):
-        list.append(random.randint(100,200))
+        list.append(random.randint(50,200))
     return list
 
 def main():
