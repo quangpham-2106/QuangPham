@@ -114,6 +114,12 @@ def rock_paper_scissors():
 def random_number():
     return random.randint(1,6)
 
+def random_listNumber():
+    list = []
+    for i in range(0,10):
+        list.append(random.randint(0,200))
+    return list
+
 def main():
     print("Task 1:")
     print_Test()
@@ -156,5 +162,7 @@ def main():
 
     print("Task 9:") 
     print("Random number is:",random_number())
+
+    print(random_listNumber())
 
 main()
