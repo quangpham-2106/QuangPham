@@ -120,6 +120,12 @@ def random_listNumber():
         list.append(random.randint(50,200))
     return list
 
+def random_newlist():
+    new_list =[]
+    for i in range (0,100):
+        new_list.append(random.randint(100,300))
+    return new_list
+
 def main():
     print("Task 1:")
     print_Test()
@@ -164,5 +170,7 @@ def main():
     print("Random number is:",random_number())
 
     print(random_listNumber())
+
+    print(random_newlist())
 
 main()
